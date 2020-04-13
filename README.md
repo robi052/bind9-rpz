@@ -6,6 +6,6 @@ Ova lista se bazira uglavnom na hrvatskim portalim i stranicama na koje sam nai≈
 - http server lighttpd/apache/nginx (ako koristite sinkhole)
 
 ### **README**
-https://www.ionos.com/digitalguide/server/configuration/how-to-make-your-raspberry-pi-into-a-dns-server/
-https://www.zytrax.com/books/dns/ch9/rpz.html
-https://kb.isc.org/docs/aa-01310
+- https://www.ionos.com/digitalguide/server/configuration/how-to-make-your-raspberry-pi-into-a-dns-server/
+- https://www.zytrax.com/books/dns/ch9/rpz.html
+- https://kb.isc.org/docs/aa-01310
