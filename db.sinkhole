@@ -1,6 +1,6 @@
 $TTL 600
-@		IN SOA localhost. root.localhost. (
-			2020041300 ; Serial
+@		IN SOA sinkhole. root.localhost. (
+			2020041402 ; Serial
 			604800	   ; Refresh
 			86400	   ; Retry
 			2419200    ; Expire
@@ -8,6 +8,5 @@ $TTL 600
 			);
 
 		IN NS localhost.
-
-@	IN	A	127.0.0.1
-*		A	127.0.0.1
+@ IN A 10.0.0.2
+* A 10.0.0.2

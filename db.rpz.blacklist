@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041202 ; Serial number
+			2020041404 ; Serial number
 			60         ; Refresh every minute
 			60         ; Retry every minute
 			432000     ; Expire in 5 days
@@ -86,11 +86,6 @@ ads.adaptv.advertising.com				CNAME	.
 ; [Amazon-adsystem.com]
 c.amazon-adsystem.com					CNAME	.
 
-; [Amateri.com]
-amateri.com					IN      CNAME   drop.sinkhole.
-www.amateri.com					IN      CNAME   drop.sinkhole.
-hr.amateri.com					IN      CNAME   drop.sinkhole.
-
 ; [arbz.info]
 arbz.info						CNAME	.
 
@@ -103,11 +98,6 @@ cdn.avocet.io						CNAME	.
 www.avocet.io						CNAME	.
 www.api.avocet.io					CNAME	.
 www.cdn.avocet.io					CNAME	.
-
-; [Bongacams.com]
-bongacams.com					IN	CNAME	drop.sinkhole.
-www.bongacams.com				IN	CNAME	drop.sinkhole.
-hr.bongacams.com				IN	CNAME	drop.sinkhole.
 
 ; [Carambo.la]
 ads.carambo.la						CNAME	.
@@ -188,11 +178,6 @@ exosrv.com						CNAME	.
 ads.exosrv.com						CNAME	.
 main.exosrv.com						CNAME	.
 static.exosrv.com					CNAME	.
-
-; [Fres-news]
-fres-news.com						CNAME   drop.sinkhole.
-0.fres-news.com						CNAME   drop.sinkhole.
-1.fres-news.com						CNAME   drop.sinkhole.
 
 ; [Gemius.pl] 
 adhr.hit.gemius.pl					CNAME	.
@@ -312,16 +297,8 @@ hr3.motionfree.pro                                      CNAME   .
 nativemedia.rs						CNAME	.
 display.nativemedia.rs					CNAME	.
 
-; [Nbryb.com] 
-nbryb.com					IN	CNAME	drop.sinkhole.
-*.nbryb.com					IN	CNAME	drop.sinkhole.
-
 ; [Net.hr]
 openx.net.hr                                            CNAME   .
-
-; [Optnx.com]
-optnx.com					IN	CNAME	drop.sinkhole.
-m.optnx.com					IN	CNAME	drop.sinkhole.
 
 ; [Pubmatic.com]
 hbopenbid.pubmatic.com					CNAME	.
@@ -369,16 +346,8 @@ assets.tapad.com					CNAME	.
 pixel.tapad.com						CNAME	.
 tapestry.tapad.com					CNAME	.
 
-; [The31news.com spam]
-the31news.com					IN	CNAME	drop.sinkhole.
-www.the31news.com				IN	CNAME	drop.sinkhole.
-*.the31news.com					IN	CNAME	drop.sinkhole.
-
 ; [Trafficfactory.biz]
 rpc-php.trafficfactory.biz				CNAME	.
-
-; [tyblk.info]
-tyblk.info					IN	CNAME	drop.sinkhole.
 
 ; [Unity3d.com]
 publisher-event.unityads.unity3d.com			CNAME	.
@@ -406,3 +375,41 @@ world.rw.yieldmo.com					CNAME	.
 
 ; [Youtube]
 ads.youtube.com						CNAME	.
+
+
+
+; ### SINKHOLE ###
+
+; [Amateri.com]
+; amateri.com                                     IN      CNAME   drop.sinkhole.
+; www.amateri.com                                 IN      CNAME   drop.sinkhole.
+; hr.amateri.com                                  IN      CNAME   drop.sinkhole.
+amateri.com					A	10.0.0.2
+www.amateri.com					A	10.0.0.2
+hr.amateri.com					A	10.0.0.2
+
+; [Bongacams.com]
+bongacams.com                                   IN      CNAME   drop.sinkhole.
+www.bongacams.com                               IN      CNAME   drop.sinkhole.
+hr.bongacams.com                                IN      CNAME   drop.sinkhole.
+
+; [Fres-news]
+fres-news.com                                   IN      CNAME   drop.sinkhole.
+0.fres-news.com                                 IN      CNAME   drop.sinkhole.
+1.fres-news.com                                 IN      CNAME   drop.sinkhole.
+
+; [Nbryb.com]
+nbryb.com                                       IN      CNAME   drop.sinkhole.
+*.nbryb.com                                     IN      CNAME   drop.sinkhole.
+
+; [Optnx.com]
+optnx.com                                       IN      CNAME   drop.sinkhole.
+m.optnx.com                                     IN      CNAME   drop.sinkhole.
+
+; [The31news.com spam]
+the31news.com                                   IN      CNAME   drop.sinkhole.
+www.the31news.com                               IN      CNAME   drop.sinkhole.
+*.the31news.com                                 IN      CNAME   drop.sinkhole.
+
+; [tyblk.info]
+tyblk.info                                      IN      CNAME   drop.sinkhole.
