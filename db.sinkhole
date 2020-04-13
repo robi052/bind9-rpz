@@ -1,0 +1,12 @@
+$TTL 600
+@       IN      SOA     sinkhole.  root.sinkhole. (
+			2020041000
+			604800 
+			86400 
+			2419200 
+			604800
+);
+
+@       IN      NS      ns1.sinkhole.
+@ IN A 10.0.0.2
+* A 10.0.0.2
