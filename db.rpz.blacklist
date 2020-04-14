@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041407 ; Serial number
+			2020041411 ; Serial number
 			60         ; Refresh every minute
 			60         ; Retry every minute
 			432000     ; Expire in 5 days
@@ -381,15 +381,18 @@ ads.youtube.com						CNAME	.
 ; ### SINKHOLE ###
 
 ; [Amateri.com]
-amateri.com                                     IN      CNAME   drop.sinkhole.
-*.amateri.com					IN	CNAME	drop.sinkhole.
-www.amateri.com                                 IN      CNAME   drop.sinkhole.
-hr.amateri.com                                  IN      CNAME   drop.sinkhole.
+amateri.com                                     IN      CNAME   drop.sinkhole. ; Adult spam
+*.amateri.com					IN	CNAME	drop.sinkhole. ; Adult spam
+www.amateri.com                                 IN      CNAME   drop.sinkhole. ; Adult spam
+hr.amateri.com                                  IN      CNAME   drop.sinkhole. ; Adult spam
 
 ; [Bongacams.com]
-bongacams.com                                   IN      CNAME   drop.sinkhole.
-www.bongacams.com                               IN      CNAME   drop.sinkhole.
-hr.bongacams.com                                IN      CNAME   drop.sinkhole.
+bongacams.com                                   IN      CNAME   drop.sinkhole. ; Adult spam
+www.bongacams.com                               IN      CNAME   drop.sinkhole. ; Adult spam
+hr.bongacams.com                                IN      CNAME   drop.sinkhole. ; Adult spam
+
+; [Desavanja.xyz]
+desavanja.xyz					IN	CNAME	drop.sinkhole. ; Fake news
 
 ; [Fres-news]
 fres-news.com                                   IN      CNAME   drop.sinkhole.
@@ -397,6 +400,9 @@ www.fres-news.com				IN	CNAME	drop.sinkhole.
 *.fres-news.com					IN	CNAME	drop.sinkhole.
 0.fres-news.com                                 IN      CNAME   drop.sinkhole.
 1.fres-news.com                                 IN      CNAME   drop.sinkhole.
+
+; [Minepi.com]
+minepi.com					IN	CNAME	drop.sinkhole.
 
 ; [Nbryb.com]
 nbryb.com                                       IN      CNAME   drop.sinkhole.
