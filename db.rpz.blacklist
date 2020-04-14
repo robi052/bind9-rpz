@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041411 ; Serial number
+			2020041412 ; Serial number
 			60         ; Refresh every minute
 			60         ; Retry every minute
 			432000     ; Expire in 5 days
@@ -60,6 +60,9 @@ st-n.ads3-adnow.com					CNAME	.
 ; [Adsync.tech]
 cdn.adsync.tech						CNAME	.
 
+; [Adsrvr.org]
+match.adsrvr.org					CNAME	.
+
 ; [Adocean.pl] 
 advicepl.adocean.pl					CNAME	.
 afi.adocean.pl						CNAME	.
@@ -111,6 +114,7 @@ www.carambo.la						CNAME	.
 
 ; [Casalemedia.com]
 as-sec.casalemedia.com					CNAME	.
+ssum-sec.casalemedia.com				CNAME	.
 
 ; [Crashlytics.com]
 crashlytics.com						CNAME	.
@@ -166,6 +170,7 @@ ad.hr.doubleclick.net					CNAME	.
 ad.rs.doubleclick.net					CNAME	.
 ad.si.doubleclick.net					CNAME	.
 adclick.g.doubleclick.net				CNAME	.
+cm.g.doubleclick.net					CNAME	.
 ff.doubleclick.net					CNAME	.
 stats.g.doubleclick.net					CNAME	.
 static.doubleclick.net					CNAME	.
