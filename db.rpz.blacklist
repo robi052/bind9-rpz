@@ -1,10 +1,10 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041412 ; Serial number
-			60         ; Refresh every minute
-			60         ; Retry every minute
-			432000     ; Expire in 5 days
-			60        ; negative caching ttl 1 minute
+			2020041500	; Serial number
+			60		; Refresh every minute
+			60		; Retry every minute
+			432000		; Expire in 5 days
+			60		; negative caching ttl 1 minute
 			)
 		IN NS localhost.
 
@@ -40,6 +40,7 @@ server.adform.net					CNAME	.
 track.adform.net					CNAME	.			
 
 ; [Adnxs.com]
+acdn.adnxs.com						CNAME	.
 g.adnxs.com						CNAME	.
 gam.adnxs.com						CNAME	.
 ib.adnxs.com						CNAME	.
@@ -85,6 +86,7 @@ www.adskeeper.co.uk					CNAME	.
 
 ; [Advertising.com]
 ads.adaptv.advertising.com				CNAME	.
+video.adaptv.advertising.com				CNAME	.
 
 ; [Amazon-adsystem.com]
 c.amazon-adsystem.com					CNAME	.
@@ -114,6 +116,7 @@ www.carambo.la						CNAME	.
 
 ; [Casalemedia.com]
 as-sec.casalemedia.com					CNAME	.
+ssum.casalemedia.com					CNAME	.
 ssum-sec.casalemedia.com				CNAME	.
 
 ; [Crashlytics.com]
@@ -172,6 +175,7 @@ ad.si.doubleclick.net					CNAME	.
 adclick.g.doubleclick.net				CNAME	.
 cm.g.doubleclick.net					CNAME	.
 ff.doubleclick.net					CNAME	.
+*.fls.doubleclick.net					CNAME	.
 stats.g.doubleclick.net					CNAME	.
 static.doubleclick.net					CNAME	.
 static.g.doubleclick.net				CNAME	.
@@ -305,7 +309,30 @@ display.nativemedia.rs					CNAME	.
 ; [Net.hr]
 openx.net.hr                                            CNAME   .
 
+; [Outbrain.com]
+outbrain.com						CNAME	.
+amplify.outbrain.com					CNAME	.
+amplifypixel.outbrain.com				CNAME	.
+images.outbrain.com					CNAME	.
+libs.outbrain.com					CNAME	.
+log.outbrain.com					CNAME	.
+mv.outbrain.com						CNAME	.
+odb.outbrain.com					CNAME	.
+paid.outbrain.com					CNAME	.
+s.outbrain.com						CNAME	.
+sync.outbrain.com					CNAME	.
+tr.outbrain.com						CNAME	.
+www.outbrain.com					CNAME	.
+widgets.outbrain.com					CNAME	.
+vra.outbrain.com					CNAME	.
+vrp.outbrain.com					CNAME	.
+vrt.outbrain.com					CNAME	.
+images.outbrainimg.com					CNAME	.
+log.outbrainimg.com					CNAME	.
+tcheck.outbrainimg.com					CNAME	.
+
 ; [Pubmatic.com]
+ads.pubmatic.com					CNAME	.
 hbopenbid.pubmatic.com					CNAME	.
 
 ; [Rtl.hr]
@@ -329,6 +356,7 @@ www3.smartadserver.com					CNAME	.
 
 ; [Spotxchange.com]
 search.spotxchange.com					CNAME	.
+sync.search.spotxchange.com				CNAME	.
 
 ; [Supersonic.com]
 iab-imp-gateway.supersonicads.com			CNAME	.
@@ -342,6 +370,7 @@ supersonicads.com					CNAME	.
 eph-adsjutarnji.cdn.sysbee.net				CNAME	.
 
 ; [Taboola.com]
+taboola.com						CNAME	.
 trc.taboola.com						CNAME	.
 15.taboola.com						CNAME	.
 images.taboola.com					CNAME	.
@@ -363,6 +392,12 @@ ss.userscontent.com					CNAME	.
 
 ; [Viralize.tv]
 ads.viralize.tv						CNAME	.
+
+; [Vlitag.com]
+assets.vlitag.com					CNAME	.
+logs.vlitag.com						CNAME	.
+services.vlitag.com					CNAME	.
+tag.vlitag.com						CNAME	.
 
 ; [Yahoo]
 ads.yahoo.com						CNAME	.
