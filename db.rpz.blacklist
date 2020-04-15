@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041500	; Serial number
+			2020041501	; Serial number
 			60		; Refresh every minute
 			60		; Retry every minute
 			432000		; Expire in 5 days
@@ -88,6 +88,10 @@ www.adskeeper.co.uk					CNAME	.
 ads.adaptv.advertising.com				CNAME	.
 video.adaptv.advertising.com				CNAME	.
 
+; [Aklamator.com]
+aklamator.com						CNAME	.
+b.aklamator.com						CNAME	.
+
 ; [Amazon-adsystem.com]
 c.amazon-adsystem.com					CNAME	.
 
@@ -145,9 +149,14 @@ www.criteo.com						CNAME	.
 cdn.connectad.io					CNAME	.
 i.connectad.io						CNAME	.
 
-; [Datemortii.life]
-datamortii.life						CNAME	.
-www.datamortii.life					CNAME	.
+; [Contentexchange.me]
+contentexchange.me					CNAME	.
+www.contentexchange.me					CNAME	.
+adria.contentexchange.me				CNAME	.
+analytics.contentexchange.me				CNAME	.
+tracker_sd.contentexchange.me				CNAME	.
+tracker_adria.contentexchange.me			CNAME	.
+images4.contentexchange.me				CNAME	.
 
 ; [Districtm.io]
 districtm.io						CNAME	.
@@ -191,8 +200,11 @@ static.exosrv.com					CNAME	.
 ; [Gemius.pl] 
 adhr.hit.gemius.pl					CNAME	.
 gdehr.hit.gemius.pl					CNAME	.
+gders.hit.gemius.pl					CNAME	.
+ghmrs.hit.gemius.pl					CNAME	.
 hit.gemius.pl						CNAME	.
 hr.hit.gemius.pl					CNAME	.
+ls.hit.gemius.pl					CNAME	.
 si.hit.gemius.pl					CNAME	.
 
 ; [Google.com]
@@ -230,14 +242,17 @@ trajan.httpool.com					CNAME	.
 ; [igexin.com]
 sdk.hr.amp.igexin.com					CNAME	.
 
-; [Iprom.net]
+; [Iprom]
+iprom.net						CNAME	.
 adsec.iprom.net						CNAME	.
 adserver.iprom.net					CNAME	.
 central.iprom.net					CNAME	.
 cdn.ad.server.iprom.net					CNAME	.
+core.iprom.net						CNAME	.
 ipromsi.iprom.net					CNAME	.
 krater.iprom.net					CNAME	.
 tie.iprom.net						CNAME	.
+iprom.eu						CNAME	.
 
 ; [jdrc.info]
 jdrc.info						CNAME	.
@@ -416,7 +431,8 @@ world.rw.yieldmo.com					CNAME	.
 ; [Youtube]
 ads.youtube.com						CNAME	.
 
-
+; [24ur.com]
+ads.24ur.com						CNAME	.
 
 ; ### SINKHOLE ###
 
@@ -431,31 +447,35 @@ bongacams.com                                   IN      CNAME   drop.sinkhole. ;
 www.bongacams.com                               IN      CNAME   drop.sinkhole. ; Adult spam
 hr.bongacams.com                                IN      CNAME   drop.sinkhole. ; Adult spam
 
+; [Datemortii.life]
+datamortii.life					IN	CNAME	drop.sinkhole. ; Fake ads
+www.datamortii.life				IN	CNAME	drop.sinkhole. ; Fake ads
+
 ; [Desavanja.xyz]
 desavanja.xyz					IN	CNAME	drop.sinkhole. ; Fake news
 
 ; [Fres-news]
-fres-news.com                                   IN      CNAME   drop.sinkhole.
-www.fres-news.com				IN	CNAME	drop.sinkhole.
-*.fres-news.com					IN	CNAME	drop.sinkhole.
-0.fres-news.com                                 IN      CNAME   drop.sinkhole.
-1.fres-news.com                                 IN      CNAME   drop.sinkhole.
+fres-news.com                                   IN      CNAME   drop.sinkhole. ; Fake google results
+www.fres-news.com				IN	CNAME	drop.sinkhole. ; Fake google results
+*.fres-news.com					IN	CNAME	drop.sinkhole. ; Fake google results
+0.fres-news.com                                 IN      CNAME   drop.sinkhole. ; Fake google results
+1.fres-news.com                                 IN      CNAME   drop.sinkhole. ; Fake google results
 
 ; [Minepi.com]
 minepi.com					IN	CNAME	drop.sinkhole.
 
 ; [Nbryb.com]
-nbryb.com                                       IN      CNAME   drop.sinkhole.
-*.nbryb.com                                     IN      CNAME   drop.sinkhole.
+nbryb.com                                       IN      CNAME   drop.sinkhole. ; Fake google results
+*.nbryb.com                                     IN      CNAME   drop.sinkhole. ; Fake google results
 
 ; [Optnx.com]
 optnx.com                                       IN      CNAME   drop.sinkhole.
 m.optnx.com                                     IN      CNAME   drop.sinkhole.
 
 ; [The31news.com spam]
-the31news.com                                   IN      CNAME   drop.sinkhole.
-www.the31news.com                               IN      CNAME   drop.sinkhole.
-*.the31news.com                                 IN      CNAME   drop.sinkhole.
+the31news.com                                   IN      CNAME   drop.sinkhole. ; Fake google results
+www.the31news.com                               IN      CNAME   drop.sinkhole. ; Fake google results
+*.the31news.com                                 IN      CNAME   drop.sinkhole. ; Fake google results
 
 ; [tyblk.info]
-tyblk.info                                      IN      CNAME   drop.sinkhole.
+tyblk.info                                      IN      CNAME   drop.sinkhole. ; Fake google results
