@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041501	; Serial number
+			2020041600	; Serial number
 			60		; Refresh every minute
 			60		; Retry every minute
 			432000		; Expire in 5 days
@@ -20,6 +20,7 @@ wd.adcolony.com						CNAME	.
 adc3-launch.adcolony.com				CNAME	.
 
 ; [Adform.net]
+adform.net						CNAME	.
 a1.adform.net						CNAME	.
 a2.adform.net						CNAME	.
 adback.adform.net					CNAME	.				
@@ -32,7 +33,8 @@ cm2.adform.net						CNAME	.
 cm3.adform.net						CNAME	.				
 dmp.adform.net						CNAME	.
 dmp-eu.adform.net					CNAME	.
-hb.adx2.adform.net					CNAME	.				
+hb.adx2.adform.net					CNAME	.
+files.adform.net					CNAME	.				
 s1.adform.net						CNAME	.
 s2.adform.net						CNAME	.				
 servr.adform.net					CNAME	.
@@ -40,7 +42,13 @@ server.adform.net					CNAME	.
 track.adform.net					CNAME	.			
 
 ; [Adnxs.com]
+adnxs.com						CNAME	.
+ads.adnx.com						CNAME	.
 acdn.adnxs.com						CNAME	.
+g.adnxs.com						CNAME	.
+ams1-ib.adnxs.com					CNAME	.
+cdn.adnxs.com						CNAME	.
+fra1-ib.adnxs.com					CNAME	.
 g.adnxs.com						CNAME	.
 gam.adnxs.com						CNAME	.
 ib.adnxs.com						CNAME	.
@@ -53,9 +61,23 @@ vcdn.adnxs.com						CNAME	.
 www.adnxs.com						CNAME	.
 ym.adnxs.com						CNAME	.
 
-; [Ads1-adnow.com]
-n.ads1-adnov.com					CNAME	.
+; [Ads1 Ads3 adnow.com]
+ad.adnow.com						CNAME	.
+adm-td.adnow.com					CNAME	.
+admtd.adnow.com						CNAME	.
+n.adnow.com						CNAME	.
+stn.adnow.com                                           CNAME   .
+stn.ad.adnow.com                                        CNAME   .
+; Varijacije
+ads1-adnow.com						CNAME	.
+ads2-adnow.com						CNAME	.
+ads3-adnow.com						CNAME	.
+n.ads1-adnow.com					CNAME	.
+n.ads2-adnow.com                                        CNAME   .
+n.ads3-adnow.com                                        CNAME   .
+st.n.ads2-adnow.com					CNAME	.
 st-n.ads1-adnow.com					CNAME	.
+st-n.ads2-adnow.com                                     CNAME   .
 st-n.ads3-adnow.com					CNAME	.
 
 ; [Adsync.tech]
@@ -65,10 +87,13 @@ cdn.adsync.tech						CNAME	.
 match.adsrvr.org					CNAME	.
 
 ; [Adocean.pl] 
+adocean.pl						CNAME	.
 advicepl.adocean.pl					CNAME	.
 afi.adocean.pl						CNAME	.
 alt.adocean.pl						CNAME	.
 gde.adocean.pl						CNAME	.
+gg.adocean.pl						CNAME	.
+gratkapl.adocean.pl					CNAME	.
 hr.adocean.pl						CNAME	.
 hrgde.adocean.pl					CNAME	.
 ringierro.adocean.pl					CNAME	.
@@ -199,6 +224,8 @@ static.exosrv.com					CNAME	.
 
 ; [Gemius.pl] 
 adhr.hit.gemius.pl					CNAME	.
+adocean-hr.hit.gemius.pl				CNAME	.
+adocean-si.hit.gemius.pl				CNAME	.
 gdehr.hit.gemius.pl					CNAME	.
 gders.hit.gemius.pl					CNAME	.
 ghmrs.hit.gemius.pl					CNAME	.
@@ -220,8 +247,13 @@ adservice.google.hr					CNAME	.
 ; [Googleadservices.com]
 www.googleadservices.com				CNAME	.
 
-; Googlesyndication.com
+; [Googlesyndication.com]
+button.googlesyndication.com				CNAME	.
+pagead1.googlesyndication.com				CNAME	.
 pagead2.googlesyndication.com				CNAME	.
+pagead3.googlesyndication.com				CNAME	.
+pagead.googlesyndication.com				CNAME	.
+tcp.googlesyndication.com				CNAME	.
 
 ; [health-line]
 health-line.me						CNAME	.
@@ -233,6 +265,7 @@ www.health-line.me					CNAME	.
 herbeauty.com						CNAME	.
 
 ; [Httpool.com - AS41427]
+httpool.com						CNAME	.
 ad.httpool.com						CNAME	.
 aurelius.httpool.com					CNAME	.
 relay-hr.ads.httpool.com				CNAME	.
@@ -307,11 +340,22 @@ vastx.moatads.com					CNAME	.
 z.moatads.com						CNAME	.
 
 ; [Mopub.com]
+mopub.com						CNAME	.
 ads.mopub.com						CNAME	.
+app.mopub.com						CNAME	.
 admin.adserver.mopub.com				CNAME	.
 admin.mpx.mopub.com					CNAME	.
 adpreview.mopub.com					CNAME	.
 adserver.mopub.com					CNAME	.
+a.r10.mopub.com						CNAME	.
+b.r10.mopub.com						CNAME	.
+c.r10.mopub.com						CNAME	.
+d.r10.mopub.com						CNAME	.
+media.mopub.com						CNAME	.
+mpx.mopub.com						CNAME	.
+s.mopub.com						CNAME	.
+s2.mopub.com						CNAME	.
+static2.mopub.com					CNAME	.
 
 ; [Motionfree]
 motionfree.pro                                          CNAME   .
@@ -461,6 +505,10 @@ www.fres-news.com				IN	CNAME	drop.sinkhole. ; Fake google results
 0.fres-news.com                                 IN      CNAME   drop.sinkhole. ; Fake google results
 1.fres-news.com                                 IN      CNAME   drop.sinkhole. ; Fake google results
 
+; [Vivom.pro]
+vivom.pro					IN	CNAME	drop.sinkhole.
+*.vivom.pro					IN	CNAME	drop.sinkhole.
+
 ; [Minepi.com]
 minepi.com					IN	CNAME	drop.sinkhole.
 
@@ -479,3 +527,6 @@ www.the31news.com                               IN      CNAME   drop.sinkhole. ;
 
 ; [tyblk.info]
 tyblk.info                                      IN      CNAME   drop.sinkhole. ; Fake google results
+
+; [Xlanding.pw]
+xlanding.pw					IN	CNAME	drop.sinkhole.
