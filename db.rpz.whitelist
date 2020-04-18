@@ -1,0 +1,19 @@
+$TTL 60
+@		IN SOA localhost. root.localhost.  (
+			2020041600  ; serial
+			3H  ; refresh
+			1H  ; retry
+			1W  ; expiry
+			1H ; minimum
+			)
+		IN NS localhost.
+
+
+#netflix.com                 CNAME   rpz-passthru.
+#*.netflix.com               CNAME   rpz-passthru.
+
+robertobilic.com		CNAME	rpz-passthru.
+www.robertobilic.com		CNAME	rpz-passthru.
+plesnistudiovem.com		CNAME	rpz-passthru.
+www.plesnistudiovem.com		CNAME	rpz-passthru.
+ott.vip.hr			CNAME	rpz-passthru.
