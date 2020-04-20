@@ -5,6 +5,12 @@ Ova lista se bazira uglavnom na hrvatskim portalim i stranicama na koje sam nai�
 - BIND9
 - http server lighttpd/apache/nginx (ako koristite sinkhole)
 
+### **O listama**
+- db.rpz.blacklist: Lista blokiranih stranica. Blokirane su reklame, maliciozne stranice i dr. Lista se učestalo osvježava, ali nije vam 100% zaštita. Nisu blokirane statistike poput Google Analytics i sl.
+- db.rpz.safenet: Zaštita za djecu. Forsira sigurno pretraživanje Google i Bing tražilice. Za uključiti Google.com i google.hr ukloniti ispred tih linija znak ;. Za dodavanje googlea na drugim jezicima jednostavno dodati dvije adrese (bez i sa www). Može se i Youtube forsirati.
+- db.rpz.whitelist: Lista url-ova za koje želimo da zaobiđu RPZ pravila (npr Netflix i sl.)
+- db.sinkhole: Postavke za preusmjeravanje 
+
 ### **README**
 - https://www.ionos.com/digitalguide/server/configuration/how-to-make-your-raspberry-pi-into-a-dns-server/
 - https://www.zytrax.com/books/dns/ch9/rpz.html
