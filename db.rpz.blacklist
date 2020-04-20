@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020041700	; Serial number
+			2020042000	; Serial number
 			60		; Refresh every minute
 			60		; Retry every minute
 			432000		; Expire in 5 days
@@ -75,10 +75,14 @@ ads3-adnow.com						CNAME	.
 n.ads1-adnow.com					CNAME	.
 n.ads2-adnow.com                                        CNAME   .
 n.ads3-adnow.com                                        CNAME   .
+n.ads4-adnow.com					CNAME	.
+n.ads5-adnow.com					CNAME	.
 st.n.ads2-adnow.com					CNAME	.
 st-n.ads1-adnow.com					CNAME	.
 st-n.ads2-adnow.com                                     CNAME   .
 st-n.ads3-adnow.com					CNAME	.
+st-n.ads4-adnow.com					CNAME	.
+st-n.ads5-adnow.com					CNAME	.
 
 ; [Adsync.tech]
 cdn.adsync.tech						CNAME	.
@@ -339,6 +343,15 @@ svastx.moatads.com					CNAME	.
 vastx.moatads.com					CNAME	.
 z.moatads.com						CNAME	.
 
+; [Monadplus.com] reklame
+monadplug.com						CNAME	.
+api.monadplug.com					CNAME	.
+click.monadplug.com					CNAME	.
+files.monadplug.com					CNAME	.
+
+; [Monadbackend.online]
+monadbackend.online					CNAME	.
+
 ; [Mopub.com]
 mopub.com						CNAME	.
 ads.mopub.com						CNAME	.
@@ -452,6 +465,10 @@ ss.userscontent.com					CNAME	.
 ; [Viralize.tv]
 ads.viralize.tv						CNAME	.
 
+; [Xlanding.pw]
+xlanding.pw						CNAME	.
+www.xlanding.pw						CNAME	.
+
 ; [Vlitag.com]
 assets.vlitag.com					CNAME	.
 logs.vlitag.com						CNAME	.
@@ -485,22 +502,25 @@ amateri.com                                     IN      CNAME   drop.sinkhole. ;
 *.amateri.com					IN	CNAME	drop.sinkhole. ; Adult spam
 www.amateri.com                                 IN      CNAME   drop.sinkhole. ; Adult spam
 hr.amateri.com                                  IN      CNAME   drop.sinkhole. ; Adult spam
-;www.amateri.com		IN A	10.0.0.2
-;amateri.com		IN A	10.0.0.2
+
+; [Bakinireceptii.com]
+bakinireceptii.com				IN	CNAME	drop.sinkhole. ; Fake news and ads spam
+63.158.47.78.rpz-ip				IN	CNAME	drop.sinkhole.
 
 ; [Bongacams.com]
 bongacams.com                                   IN      CNAME   drop.sinkhole. ; Adult spam
 www.bongacams.com                               IN      CNAME   drop.sinkhole. ; Adult spam
 hr.bongacams.com                                IN      CNAME   drop.sinkhole. ; Adult spam
 
-; [Datemortii.life]
-; datamortii.life					IN	CNAME	drop.sinkhole. ; Fake ads
-; www.datamortii.life				IN	CNAME	drop.sinkhole. ; Fake ads
-
 ; [Desavanja.xyz]
 desavanja.xyz					IN	CNAME	drop.sinkhole. ; Fake news
 
-; [Fres-news.com privremeno uklonjeno]
+; [inovine24.info]
+inovine24.info					IN	CNAME	drop.sinkhole. ; Fake news
+
+; [internetnovosti.com]
+internetnovosti.com				IN	CNAME	drop.sinkhole. ; Misconfigured
+www.internetnovosti.com				IN	CNAME	drop.sinkhole.
 
 ; [Vivom.pro]
 vivom.pro					IN	CNAME	drop.sinkhole.
@@ -508,6 +528,10 @@ vivom.pro					IN	CNAME	drop.sinkhole.
 
 ; [Minepi.com]
 minepi.com					IN	CNAME	drop.sinkhole.
+
+; [Molendf.co.kr] Malware
+org.molendf.co.kr				IN	CNAME	drop.sinkhole.
+*.org.molendf.co.kr				IN	CNAME	drop.sinkhole.
 
 ; [Nbryb.com]
 nbryb.com                                       IN      CNAME   drop.sinkhole. ; Fake google results
@@ -524,6 +548,3 @@ www.the31news.com                               IN      CNAME   drop.sinkhole. ;
 
 ; [tyblk.info]
 tyblk.info                                      IN      CNAME   drop.sinkhole. ; Fake google results
-
-; [Xlanding.pw]
-xlanding.pw					IN	CNAME	drop.sinkhole.
