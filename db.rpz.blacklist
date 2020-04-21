@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020042000	; Serial number
+			2020042001	; Serial number
 			60		; Refresh every minute
 			60		; Retry every minute
 			432000		; Expire in 5 days
@@ -298,6 +298,9 @@ www.jdrc.info						CNAME	.
 ; [jsecoin.com]
 jsecoin.com						CNAME	.
 
+; [Krakenoptimize.com]
+cdn.krakenoptimize.com					CNAME	.
+
 ; [Kurir-info.rs]
 ads.kurir-info.rs					CNAME	.
 
@@ -306,7 +309,7 @@ linker.hr						CNAME	*.
 
 ; [lofv.xyz]
 lofv.xyz                                                CNAME   .
-
+www.lofv.xyz						CNAME	.
 ; [medreporters24.com]
 uk.medreporters24.com					CNAME	.
 
