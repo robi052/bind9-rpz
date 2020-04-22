@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020042001	; Serial number
+			2020042003	; Serial number
 			60		; Refresh every minute
 			60		; Retry every minute
 			432000		; Expire in 5 days
@@ -117,6 +117,10 @@ www.adskeeper.co.uk					CNAME	.
 ads.adaptv.advertising.com				CNAME	.
 video.adaptv.advertising.com				CNAME	.
 
+; [Agirmutualiste.fr]
+agirmutualiste.fr					CNAME	.
+a.agirmutualiste.fr					CNAME	.
+
 ; [Aklamator.com]
 aklamator.com						CNAME	.
 b.aklamator.com						CNAME	.
@@ -151,6 +155,10 @@ www.carambo.la						CNAME	.
 as-sec.casalemedia.com					CNAME	.
 ssum.casalemedia.com					CNAME	.
 ssum-sec.casalemedia.com				CNAME	.
+
+; [Chikiporn.com]
+chikiporn.com						CNAME	.
+www.chikiporn.com					CNAME	.
 
 ; [Crashlytics.com]
 crashlytics.com						CNAME	.
@@ -377,6 +385,9 @@ static2.mopub.com					CNAME	.
 motionfree.pro                                          CNAME   .
 hr3.motionfree.pro                                      CNAME   .
 
+; [Mox.tv]
+ad.mox.tv						CNAME	.
+
 ; [Nativemedia.rs]
 nativemedia.rs						CNAME	.
 display.nativemedia.rs					CNAME	.
@@ -469,8 +480,8 @@ ss.userscontent.com					CNAME	.
 ads.viralize.tv						CNAME	.
 
 ; [Xlanding.pw]
-xlanding.pw						CNAME	.
-www.xlanding.pw						CNAME	.
+;xlanding.pw						CNAME	.
+;www.xlanding.pw						CNAME	.
 
 ; [Vlitag.com]
 assets.vlitag.com					CNAME	.
@@ -521,6 +532,10 @@ desavanja.xyz					IN	CNAME	drop.sinkhole. ; Fake news
 ; [inovine24.info]
 inovine24.info					IN	CNAME	drop.sinkhole. ; Fake news
 
+; [izona24.com] Spam
+izona.com					IN	CNAME	drop.sinkhole. ; Spam
+www.izona24.com					IN	CNAME	drop.sinkhole. ; Spam
+
 ; [internetnovosti.com]
 internetnovosti.com				IN	CNAME	drop.sinkhole. ; Misconfigured
 www.internetnovosti.com				IN	CNAME	drop.sinkhole.
@@ -544,6 +559,10 @@ nbryb.com                                       IN      CNAME   drop.sinkhole. ;
 optnx.com                                       IN      CNAME   drop.sinkhole.
 m.optnx.com                                     IN      CNAME   drop.sinkhole.
 
+; [Padsreds.com]
+padsreds.com					IN	CNAME	drop.sinkhole.
+www.padsreds.com				IN	CNAME	drop.sinkhole.
+
 ; [The31news.com spam]
 the31news.com                                   IN      CNAME   drop.sinkhole. ; Fake google results
 www.the31news.com                               IN      CNAME   drop.sinkhole. ; Fake google results
@@ -551,3 +570,8 @@ www.the31news.com                               IN      CNAME   drop.sinkhole. ;
 
 ; [tyblk.info]
 tyblk.info                                      IN      CNAME   drop.sinkhole. ; Fake google results
+
+; [Xlanding]
+149.9.114.176.rpz-ip				IN	CNAME	drop.sinkhole. ; xlanding IP
+xlanding.pw					IN	CNAME	drop.sinkhole.
+www.xlanding.pw					IN	CNAME	drop.sinkhole.
