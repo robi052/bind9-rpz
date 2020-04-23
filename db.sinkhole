@@ -1,12 +1,12 @@
-$TTL 600
-@		IN SOA sinkhole. root.localhost. (
-			2020041600 ; Serial
-			604800	   ; Refresh
-			86400	   ; Retry
-			2419200    ; Expire
-			604800	   ; Negative cache
+$TTL 300
+@		SOA sinkhole. root.localhost. (
+			2020042300	; Serial
+			1h		; Refresh
+			15m		; Retry
+			30d		; Expire
+			2h		; Negative cache
 			);
+		NS localhost.
 
-		IN NS localhost.
 @ IN A 10.0.0.2
 * A 10.0.0.2
