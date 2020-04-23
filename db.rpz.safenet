@@ -1,12 +1,12 @@
 $TTL 300
-@		IN SOA localhost. root.localhost. (
-			2020042300	; Serial
-			1d		; Refresh
-			2h		; Retry
-			4w		; Expire
-			1h		; negative caching ttl 1 minute
+@		IN SOA @ hostmaster.rbphoto.lan. (
+			2020042301	; Serial
+			1h		; Refresh
+			15m		; Retry
+			30d		; Expire
+			2h		; negative caching ttl 1 minute
 			)
-		IN NS localhost.
+		IN NS ns1.rbphoto.lan.
 
 ; Google IPv4
 google.com		CNAME  forcesafesearch.google.com.
