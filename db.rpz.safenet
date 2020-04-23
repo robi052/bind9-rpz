@@ -1,6 +1,6 @@
 $TTL 300
 @		IN SOA localhost. root.localhost. (
-			2020042200	; Serial
+			2020042300	; Serial
 			1d		; Refresh
 			2h		; Retry
 			4w		; Expire
@@ -9,10 +9,10 @@ $TTL 300
 		IN NS localhost.
 
 ; Google IPv4
-//google.com		CNAME  forcesafesearch.google.com.
-//www.google.com	CNAME  forcesafesearch.google.com.
-//google.hr		CNAME  forcesafesearch.google.com.
-//www.google.hr		CNAME  forcesafesearch.google.com.
+google.com		CNAME  forcesafesearch.google.com.
+www.google.com		CNAME  forcesafesearch.google.com.
+google.hr		CNAME  forcesafesearch.google.com.
+www.google.hr		CNAME  forcesafesearch.google.com.
 google.ba		CNAME  forcesafesearch.google.com.
 www.google.ba		CNAME  forcesafesearch.google.com.
 google.rs		CNAME  forcesafesearch.google.com.
@@ -25,8 +25,8 @@ bing.com		CNAME  strict.bing.com.
 www.bing.com		CNAME  strict.bing.com.
 
 ; Youtube
-// www.youtube.com           IN CNAME restrict.youtube.com.
-// m.youtube.com             IN CNAME restrict.youtube.com.
-// youtubei.googleapis.com   IN CNAME restrict.youtube.com.
-// youtube.googleapis.com    IN CNAME restrict.youtube.com.
-// www.youtube-nocookie.com  IN CNAME restrict.youtube.com.
+www.youtube.com           IN CNAME restrict.youtube.com.
+m.youtube.com             IN CNAME restrict.youtube.com.
+youtubei.googleapis.com   IN CNAME restrict.youtube.com.
+youtube.googleapis.com    IN CNAME restrict.youtube.com.
+www.youtube-nocookie.com  IN CNAME restrict.youtube.com.
