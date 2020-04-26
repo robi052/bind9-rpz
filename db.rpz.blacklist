@@ -1,6 +1,6 @@
 $TTL 300
 @		SOA localhost. hostmaster.rbphoto.lan. (
-			2020042304	; Serial number
+			2020042600	; Serial number
 			1h		; Refresh every minute
 			15m		; Retry every minute
 			30d		; Expire in 5 days
@@ -306,8 +306,8 @@ www.jdrc.info						CNAME	.
 ; [jsecoin.com]
 jsecoin.com						CNAME	.
 
-; [Krakenoptimize.com]
-cdn.krakenoptimize.com					CNAME	.
+; [Krakenoptimize] - popup novosti
+sv1.krakenoptimize.com					CNAME	.
 
 ; [Kurir-info.rs]
 ads.kurir-info.rs					CNAME	.
@@ -556,6 +556,10 @@ org.molendf.co.kr				IN	CNAME	drop.sinkhole.
 ; [Nbryb.com]
 nbryb.com                                       IN      CNAME   drop.sinkhole. ; Fake google results
 *.nbryb.com                                     IN      CNAME   drop.sinkhole. ; Fake google results
+
+; [Novizivot.com]
+novizivot.net					IN	CNAME	drop.sinkhole.
+www.novizivot.net				IN	CNAME	drop.sinkhole.
 
 ; [Optnx.com]
 optnx.com                                       IN      CNAME   drop.sinkhole.
