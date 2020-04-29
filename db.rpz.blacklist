@@ -1,6 +1,6 @@
 $TTL 300
 @		SOA localhost. hostmaster.rbphoto.lan. (
-			2020042600	; Serial number
+			2020042601	; Serial number
 			1h		; Refresh every minute
 			15m		; Retry every minute
 			30d		; Expire in 5 days
@@ -116,6 +116,7 @@ www.adskeeper.co.uk					CNAME	.
 ; [Advertising.com]
 ads.adaptv.advertising.com				CNAME	.
 video.adaptv.advertising.com				CNAME	.
+adserver-eu.adtech.advertising.com			CNAME	.
 
 ; [Agirmutualiste.fr]
 agirmutualiste.fr					CNAME	.
@@ -306,6 +307,11 @@ www.jdrc.info						CNAME	.
 ; [jsecoin.com]
 jsecoin.com						CNAME	.
 
+; [Keywordblocks.com] - popup reklame
+keywordblocks.com					CNAME	.
+www.keywordblocks.com					CNAME	.
+*.keywordblocks.com					CNAME	.
+
 ; [Krakenoptimize] - popup novosti
 sv1.krakenoptimize.com					CNAME	.
 
@@ -318,6 +324,11 @@ linker.hr						CNAME	*.
 ; [lofv.xyz]
 lofv.xyz                                                CNAME   .
 www.lofv.xyz						CNAME	.
+
+; [Media.net]
+media.net						CNAME	.
+contextual.media.net					CNAME	.
+
 ; [medreporters24.com]
 uk.medreporters24.com					CNAME	.
 
@@ -385,6 +396,9 @@ static2.mopub.com					CNAME	.
 motionfree.pro                                          CNAME   .
 hr3.motionfree.pro                                      CNAME   .
 
+; [Mowned.com]
+mowned.com						CNAME	.
+
 ; [Mox.tv]
 ad.mox.tv						CNAME	.
 
@@ -436,6 +450,7 @@ adv.slobodnadalmacija.hr				CNAME	.
 smartadserver.com					CNAME	.
 csync.smartadserver.com					CNAME	.
 csync-tmk.smartadserver.com				CNAME	.
+prg.smartadserver.com					CNAME	.
 sync.smartadserver.com					CNAME	.
 ww2245.smartadserver.com				CNAME	.
 www3.smartadserver.com					CNAME	.
