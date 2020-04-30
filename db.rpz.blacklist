@@ -1,6 +1,6 @@
 $TTL 300
 @		SOA localhost. hostmaster.rbphoto.lan. (
-			2020042601	; Serial number
+			2020043000	; Serial number
 			1h		; Refresh every minute
 			15m		; Retry every minute
 			30d		; Expire in 5 days
@@ -235,6 +235,10 @@ ads.exosrv.com						CNAME	.
 main.exosrv.com						CNAME	.
 static.exosrv.com					CNAME	.
 
+; [fres-news.com]
+fres-news.com						CNAME	.
+*.fres-news.com						CNAME	.
+
 ; [Gemius.pl] 
 adhr.hit.gemius.pl					CNAME	.
 adocean-hr.hit.gemius.pl				CNAME	.
@@ -287,6 +291,10 @@ trajan.httpool.com					CNAME	.
 
 ; [igexin.com]
 sdk.hr.amp.igexin.com					CNAME	.
+
+; [ilo134ulih.com]
+ilo134ulih.com						CNAME	.
+*.ilo134ulih.com					CNAME	.
 
 ; [Iprom]
 iprom.net						CNAME	.
@@ -591,3 +599,6 @@ www.the31news.com                               IN      CNAME   drop.sinkhole. ;
 
 ; [tyblk.info]
 tyblk.info                                      IN      CNAME   drop.sinkhole. ; Fake google results
+
+; [Webtribune.rs]
+webtribune.rs					IN	CNAME	drop.sinkhole. ; Spam and fake news
