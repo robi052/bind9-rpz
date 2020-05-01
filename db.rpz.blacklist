@@ -1,6 +1,6 @@
 $TTL 300
 @		SOA localhost. hostmaster.rbphoto.lan. (
-			2020043000	; Serial number
+			2020050100	; Serial number
 			1h		; Refresh every minute
 			15m		; Retry every minute
 			30d		; Expire in 5 days
@@ -545,6 +545,10 @@ hr.amateri.com                                  IN      CNAME   drop.sinkhole. ;
 bakinireceptii.com				IN	CNAME	drop.sinkhole. ; Fake news and ads spam
 63.158.47.78.rpz-ip				IN	CNAME	drop.sinkhole.
 
+; [Cikpogodi]
+cikpogodi.info					IN	CNAME	drop.sinkhole.
+www.cikpogodi.info				IN	CNAME	drop.sinkhole.
+
 ; [Bongacams.com] - Adult
 bongacams.com                                   IN      CNAME   drop.sinkhole.
 www.bongacams.com                               IN      CNAME   drop.sinkhole.
@@ -552,6 +556,10 @@ hr.bongacams.com                                IN      CNAME   drop.sinkhole.
 
 ; [Desavanja.xyz] - Fake portal
 desavanja.xyz					IN	CNAME	drop.sinkhole.
+
+; [Ddnovosti247.info]
+ddnovosti247.info				IN	CNAME	drop.sinkhole.
+www.ddnovosti247.info				IN	CNAME	drop.sinkhole.
 
 ; [dz24.me] - Fake portal
 dz24.me						IN	CNAME	drop.sinkhole.
