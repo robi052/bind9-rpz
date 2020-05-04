@@ -1,6 +1,6 @@
 $TTL 300
 @		SOA localhost. hostmaster.rbphoto.lan. (
-			2020050100	; Serial number
+			2020050400	; Serial number
 			1h		; Refresh every minute
 			15m		; Retry every minute
 			30d		; Expire in 5 days
@@ -344,6 +344,10 @@ uk.medreporters24.com					CNAME	.
 mensdefence.info					CNAME	.
 2hr.mensdefence.info					CNAME	.
 
+; [Meridianbet.rs]
+ads.meridianbet.rs					CNAME	.
+img.meridianbet.rs					CNAME	.
+
 ; [Mgid.com]
 mgid.com						CNAME	.
 cm.mgid.com						CNAME	.
@@ -372,6 +376,10 @@ s.moatads.com						CNAME	.
 svastx.moatads.com					CNAME	.
 vastx.moatads.com					CNAME	.
 z.moatads.com						CNAME	.
+
+; [Mobstarter.com]
+mobstarter.com						CNAME	.
+www.mobstarter.com					CNAME	.
 
 ; [Monadplus.com] reklame
 monadplug.com						CNAME	.
