@@ -1,32 +1,25 @@
-$TTL 300
-@		SOA localhost. hostmaster.rbphoto.lan. (
-			2020042700	; Serial
-			1h		; Refresh
-			15m		; Retry
-			30d		; Expire
-			2h		; negative caching ttl 1 minute
-			)
-		NS localhost.
+$TTL 1H
+@       IN      SOA     localhost. root.localhost. (
+                        2026010101      ; serial
+                        3H              ; refresh
+                        1H              ; retry
+                        1W              ; expire
+                        1H )            ; minimum
+        IN      NS      localhost.
 
-; Google IPv4
-;google.com		CNAME  forcesafesearch.google.com.
-;www.google.com		CNAME  forcesafesearch.google.com.
-;google.hr		CNAME  forcesafesearch.google.com.
-;www.google.hr		CNAME  forcesafesearch.google.com.
-google.ba		CNAME  forcesafesearch.google.com.
-www.google.ba		CNAME  forcesafesearch.google.com.
-google.rs		CNAME  forcesafesearch.google.com.
-www.google.rs		CNAME  forcesafesearch.google.com.
-google.si		CNAME  forcesafesearch.google.com.
-www.google.si		CNAME  forcesafesearch.google.com.
+; [GOOGLE SAFESEARCH]
+google.hr               A       216.239.38.120
+www.google.hr           A       216.239.38.120
+google.com              A       216.239.38.120
+www.google.com          A       216.239.38.120
 
-; Bing
-bing.com		CNAME  strict.bing.com.
-www.bing.com		CNAME  strict.bing.com.
+; [YOUTUBE RESTRICTED MODE]
+youtube.com             CNAME   restrict.youtube.com.
+www.youtube.com         CNAME   restrict.youtube.com.
+m.youtube.com           CNAME   restrict.youtube.com.
+youtubei.googleapis.com CNAME   restrict.youtube.com.
+youtube.googleapis.com  CNAME   restrict.youtube.com.
+www.youtube-nocookie.com CNAME  restrict.youtube.com.
 
-; Youtube
-;www.youtube.com           IN CNAME restrict.youtube.com.
-;m.youtube.com             IN CNAME restrict.youtube.com.
-;youtubei.googleapis.com   IN CNAME restrict.youtube.com.
-;youtube.googleapis.com    IN CNAME restrict.youtube.com.
-;www.youtube-nocookie.com  IN CNAME restrict.youtube.com.
+; [BING SAFESEARCH]
+www.bing.com            CNAME   strict.bing.com.

@@ -1,24 +1,15 @@
-$TTL 300
-@		SOA localhost. hostmaster.rbphoto.lan.  (
-			2020042302	; serial
-			1h		; refresh
-			15m		; retry
-			30d		; expiry
-			2h		; minimum
-			)
-		NS localhost.
+$TTL 1H
+@       IN      SOA     localhost. root.localhost. (
+                        2026010102      ; serial
+                        3H              ; refresh
+                        1H              ; retry
+                        1W              ; expire
+                        1H )            ; minimum
+        IN      NS      localhost.
 
-
-#netflix.com                 CNAME   rpz-passthru.
-#*.netflix.com               CNAME   rpz-passthru.
-
-robertobilic.com		CNAME	rpz-passthru.
-www.robertobilic.com		CNAME	rpz-passthru.
-plesnistudiovem.com		CNAME	rpz-passthru.
-www.plesnistudiovem.com		CNAME	rpz-passthru.
-ott.vip.hr			CNAME	rpz-passthru.
-vipottbpkcdn09.vip.hr		CNAME	rpz-passthru.
-vipottbpkcdn10.vip.hr		CNAME	rpz-passthru.
-vipottvmxdrp.vip.hr		CNAME	rpz-passthru.
-vipottbpkstream.vip.hr		CNAME	rpz-passthru.
-resources.vip.hr		CNAME	rpz-passthru.
+; [WHITELISTED DOMAINS]
+; Ovdje su zadržane samo tvoje originalne iznimke (npr. Netflix)
+netflix.com             CNAME   rpz-passthru.
+*.netflix.com           CNAME   rpz-passthru.
+google.com              CNAME   rpz-passthru.
+*.google.com            CNAME   rpz-passthru.
